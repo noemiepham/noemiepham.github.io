@@ -1,0 +1,254 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.img-logo {
+    width: 193px;
+    height: 80px;
+}
+
+.menutop {
+    background-color: #170b19;
+}
+
+.navbar-nav {
+    line-height: 50px;
+    font-size: 20px;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    margin-right: 17px;
+    color: white;
+}
+
+@media (max-width:576px) {
+    a.navbar-brand {
+        display: block;
+        text-align: center;
+        width: 100%;
+    }
+    .navbar-nav {
+        line-height: 1px;
+        font-size: 10px;
+        margin-left: 40px;
+    }
+    .navbar-light .navbar-nav .nav-link {
+        margin-right: 5px;
+    }
+}
+
+
+/* fini menu  */
+
+.khoitt1 {
+    width: 100%;
+    height: 100%;
+    background-color: #b088a7;
+    position: relative;
+}
+
+.khoitt1::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    width: 50%;
+    height: 100%;
+    background-color: #928495;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+}
+
+html {
+    height: 100%;
+    width: 100%;
+}
+.xuong {
+    width: 30px;
+    height: 60px;
+    border: white solid 1px;
+    position: absolute;
+    left: 50%;
+    margin-left:-15px;
+    z-index: 2;
+    cursor: pointer;
+    transition: 0.4s;
+    border-radius: 20px;
+    bottom: 5%;
+}
+.xuong::after {
+    content: "";
+    position: absolute;
+    height: 8px;
+    background: white;
+    left: 50%;
+    bottom: 80%;
+    margin-left: -2px;
+    border: white solid 1;
+    width: 3px;
+}
+
+/* fini khoitt1 */
+
+.tt {
+    z-index: 2;
+    position: relative;
+    padding-top: 20%;
+}
+
+.tt img {
+    width: 150px;
+    border-radius: 50%;
+}
+
+.tt h2 {
+    color: white;
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/*  */
+.aboutme, .tieudeto h1 {
+    font-family: 'Redressed', cursive;
+    margin-bottom: 10px;
+    margin-top: 5px;
+}
+.tieudecap2 {
+    font-size: 25px;
+    font-family: 'Redressed', cursive;
+}
+
+p.stage {
+    font-size: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+h3 {
+    font-size: 15px;
+    color: #984ea9;
+    margin: 2px;
+}
+h4{
+    font-size: 15px;
+}
+
+.bloc, .columm1_3{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+@media (max-width:576px) {
+    h2.tieudecap2.text-sm-left.text-xs-center {
+        margin-top: 20px;
+    }
+}
+.logojob {
+    width: 20px;
+    height: 20px;
+}
+li {
+    margin: 0;
+}
+/* fini khoi thong tt */
+h1.tieudeto {
+
+    font-family: 'Redressed';
+    justify-content: center;
+    display: flex;
+}
+.photoprojet{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 5px;
+    justify-content: center;
+}
+.layerbig{
+width: 100%;
+height: 100%;
+position: relative;
+}
+
+.layer {
+    width: 100%;
+    height:100%;
+
+}
+.layer1 {
+    width: 100%;
+    height:100%;
+    background-color: black;
+    opacity: 0;
+    top: 0;
+    left: 0;
+    position: absolute;
+    transition: 0.4s;
+}
+.layerbig:hover .layer1 {
+    opacity: 40%;
+}
+.nav-porfolio {
+    display: flex;
+  
+}
+ul.nav-porfolio  {
+    justify-content: center;
+}
+.photo {
+    border: #170b19 solid 1px;
+    border-radius: 5px;
+    margin-right: 5px
+}
+.photo img {
+   width: 100%;
+   height: 100%;
+}
+.nav-porfolio li {
+    list-style: none;
+    margin: 10px;
+}
+
+div.row {
+    display: flex;
+
+}
+/* fini porfolio */
+.email {
+flex-grow: 1;
+margin-right: 20px;
+}
+
+button {
+    width: 165px;
+    height: 41px;
+}
+form.text {
+    display: flex;
+    justify-content: space-between;
+}
+.section {
+    display: flex;
+}
+div.form-group {
+   flex-grow: 1;
+   margin-right: 40px
+}
+input.form-control {
+    border-radius: 0px;
+    border: #984ea9 solid 2px;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+}
+textarea {
+    width: 100%;
+    border: solid 2px  #984ea9;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    height: 107px;
+
+}
+.message {
+    margin-right: 40px;
+    margin-bottom: 10px;
+}
