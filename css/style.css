@@ -209,8 +209,9 @@ div.row {
 }
 /* fini porfolio */
 .email {
-flex-grow: 1;
-margin-right: 20px;
+margin-right:30px;
+
+width: 60%;
 }
 
 button {
@@ -223,28 +224,17 @@ form.text {
 }
 .dienThongtin {
     display: flex;
+    justify-content: space-around;
 }
-div.form-group {
-   flex-grow: 1;
-   margin-right: 40px
-}
-input.form-control {
-    border-radius: 0px;
-    border: #984ea9 solid 2px;
-    border-left: none;
-    border-right: none;
-    border-top: none;
-}
-textarea {
-    width: 100%;
-    border: solid 2px  #984ea9;
-    border-left: none;
-    border-right: none;
-    border-top: none;
-    height: 107px;
 
+
+/* contact */
+
+.icon-photo {
+    display: flex;
+    flex-direction: column;
 }
-.message {
-    margin-right: 40px;
-    margin-bottom: 10px;
+.icon-photo span {
+    margin-bottom: 20px;
 }
+
