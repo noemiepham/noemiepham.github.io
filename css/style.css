@@ -162,6 +162,8 @@ h1.tieudeto {
     margin: 5px;
     justify-content: center;
 }
+
+/* Animation layer photo------ */
 .layerbig{
 width: 100%;
 height: 100%;
@@ -188,23 +190,17 @@ position: relative;
 }
 .nav-porfolio {
     display: flex;
-  
-}
-ul.nav-porfolio  {
     justify-content: center;
-}
-.photo {
-    border: #170b19 solid 1px;
-    border-radius: 5px;
-    margin-right: 5px
-}
-.photo img {
-   width: 100%;
-   height: 100%;
+  
 }
 .nav-porfolio li {
     list-style: none;
     margin: 10px;
+}
+
+img{
+        max-width: 100%;
+        height: auto;
 }
 
 div.row {
@@ -225,7 +221,7 @@ form.text {
     display: flex;
     justify-content: space-between;
 }
-.section {
+.dienThongtin {
     display: flex;
 }
 div.form-group {

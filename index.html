@@ -7,6 +7,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <script type="text/javascript" src="vendor/bootstrap.js"></script>
     <script type="text/javascript" src="behavious.js"></script>
+
+    <!-- gooogle font ----------------- -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@1,300&display=swap" rel="stylesheet">
@@ -19,17 +21,20 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@1,300&family=Redressed&display=swap"
         rel="stylesheet">
+
+    <!-- LINK CSS --------------------------- -->
     <link rel="stylesheet" href="vendor/bootstrap.css">
     <link rel="stylesheet" href="vendor/font-awesome.css">
     <link rel="stylesheet" href="./css/style.css">
-    <link rel="stylesheet" href="./css/aos.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
-    <!-- javascrips -->
+
+    <!-- javascris-------------------------------- -->
     <script src=".javajs/behavious.js"></script>
-    <script src=".javajsaos.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
     <!-- aos -->
-    
+
 
 </head>
 
@@ -57,7 +62,7 @@
             <!-- fini menu bar navigateur -->
         </nav>
     </header>
-    <div class="khoitt1">
+    <section class="khoitt1">
         <div class="container text-xs-center">
             <div class="tt">
                 <img src="Image/IMG_9779.jpg" alt="photo_huynttieuquy">
@@ -67,16 +72,17 @@
             </div>
             <div class="xuong"></div>
         </div>
-    </div>
+    </section>
     <!-- fini background khoitt -->
-    <div class="edu id=" khoiedu">
+    <section class="edu id=" khoiedu">
         <div class="container">
             <div class="row">
                 <div class="col-sm-12 aboutme text-xs-center">
-                    <h1>About me</h1>
+                    <h1 data-aos="fade-up" data-aos-duration="2000">About me</h1>
                 </div>
-                <div class="col-sm-5 columm1_3 ">
-                    <h2 class="tieudecap2 text-sm-right text-xs-center data-aos="fade-right"">à propos </h2>
+                <div class="col-sm-5 columm1_3" data-aos="fade-right" data-aos-duration="1000"
+                    data-aos-easing="ease-in-sine">
+                    <h2 class="tieudecap2 text-sm-right text-xs-center ">à propos </h2>
                     <p class="stage">
                         Bonjour et bienvenue sur mon CV, Mon nom Noémie HUYNH et je suis un developpeur front-end
                         Junior. Après un parcours universitaire éparpillé, j'ai décidé de me recentrer mes objectifs de
@@ -95,8 +101,9 @@
                 <div class="col-sm-2 columm2_3">
                     <img src="" class="img-fluid" alt="">
                 </div>
-                <div class="col-sm-5 columm3_3 bloc">
-                    <h2 class="tieudecap2 text-sm-left text-xs-center">Mes Competences</h2>
+                <div class="col-sm-5 columm3_3 bloc" data-aos="fade-left" data-aos-duration="1000"
+                    data-aos-easing="ease-in-sine"">
+                    <h2 class=" tieudecap2 text-sm-left text-xs-center">Mes Competences</h2>
                     <h3>Langages et frameworks</h3>
                     <p>
                         •Développement Web front-end
@@ -128,10 +135,11 @@
             <div class="row">
 
                 <div class="col-sm-12 tieudeto text-xs-center">
-                    <h1 >Resumer</h1>
+                    <h1 data-aos="fade-up">Resumer</h1>
                 </div>
-                <div class="col-sm-5 cot1_3">
-                    <h2 class="tieudecap2 text-sm-right text-xs-center">Formation</h2>
+
+                <div class="col-sm-5 cot1_3" data-aos="fade-right" data-aos-duration="1000" data-aos-easing="ease-in-sine>
+                    <h2 class=" tieudecap2 text-sm-right text-xs-center">Formation</h2>
                     <div class="khoithongtinnho text-sm-right text-xs-center">
                         <h3 class="tieudecap3">
                             Digital France School Bezons
@@ -162,15 +170,15 @@
                             </p>
                         </div>
                     </div>
-
                 </div>
                 <!-- end col 1 -->
                 <div class="col-sm-2 cot2_2">
 
                 </div>
                 <!-- end col 2 -->
-                <div class="col-sm-5 cot3_3">
-                    <h2 class="tieudecap2 text-sm-left text-xs-center">Experience Professionelle
+                <div class="col-sm-5 cot3_3" data-aos="fade-left" data-aos-duration="1000"
+                    data-aos-easing="ease-in-sine"">
+                    <h2 class=" tieudecap2 text-sm-left text-xs-center">Experience Professionelle
                     </h2>
                     <div class="khoithongtinnho text-sm-left text-xs-center">
                         <h3 class="tieudecap3">Projet Frond-end </h3>
@@ -205,9 +213,11 @@
                 </div>
             </div>
         </div>
-        <!-- fini khoi kinh nghiem -->
+    </section>
+        <!-- fini khoi Edu-experience ------------>
+    <section>
         <div class="porfolio">
-            <h1 class="tieudeto">Porforlio</h1>
+            <h1 class="tieudeto" data-aos="fade-up" data-aos-delay="100">Porforlio</h1>
             <ul class="nav-porfolio ">
                 <li class="nav-item" style="color: red;">
                     All
@@ -247,11 +257,11 @@
         </div>
         <div class="grouporfolio">
             <div class="container">
-                <div class="row">
+                <div class="row" data-aos="zoom-in" data-aos-duration="1000">
                     <div class="col-sm-2 ">
                         <div class="photoprojet">
                             <div class="layerbig">
-                                <img class="layer" src="Image/wedding_projet.png" alt="">
+                                <img class="layer" src="Image/Projet_wedding.png" alt="">
                                 <div class="layer1"></div>
                             </div>
                         </div>
@@ -346,7 +356,7 @@
 
                                 <div class="photoprojet">
                                     <div class="layerbig">
-                                        <img class="layer" src="Image/Teaser-Cinema-1200-500.jpeg" alt="">
+                                        <img class="layer" src="Image/Model2_kazi.png" alt="">
                                         <div class="layer1"></div>
                                     </div>
                                 </div>
@@ -365,23 +375,13 @@
                 </div>
             </div>
         </div>
-        <!--  <div class="photoprojet">
-     <div class="layerbig">
-         <img class="layer" src="https://i.insider.com/5eac8da748d92c3d275bb2de?width=2000&format=jpeg&auto=webp" alt="">
-         <div class="layer1"></div>     
-     </div>
- </div> -->
-        <br>
-
-
-        <!-- porfolio-->
-
-        <div class="tieudeto text-xs-center">
-            <h1>
+    </section>
+    <!-- porfolio-->
+    <section class="contact">
+            <h1 class = "tieudeto" data-aos="fade-up">
                 Contact
-
             </h1>
-            <div class="section">
+            <div class="dienThongtin">
                 <div class="email">
                     <form action="text" class="text">
                         <div class="form-group">
@@ -398,23 +398,17 @@
                     </div>
                     <button style="background-color: #984ea9;">Contact me</button>
                 </div>
-                <br>
                 <div class="icon">
-                    <div class="icon-photo"> 
-                        
+                    <div class="icon-photo">
+                        Lorem ipsum 
                     </div>
-                        
-                    
                 </div>
             </div>
-        </div>
-    </div>
-    <br>
-    <br>
+    </section>
 
     <footer class="khoicomment">
         <div class="logophoto tieudeto text-xs-center">
-            <h1>Commentaire</h1>
+          <hr style="margin-top: 50px;">
             <div id="disqus_thread"></div>
             <script>
                 /**
@@ -440,7 +434,7 @@
     </footer>
     <script>
         AOS.init(); 
-   </script>
+    </script>
 </body>
 
 </html>
